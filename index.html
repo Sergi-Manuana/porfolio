@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon_Cv</title>
+    <link rel="apple-touch-icon" href="Imgs/photo.jpg">
+    <link rel="icon" type="image/jpg" href="Imgs/photo.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,400;1,8..144,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header >
+            <div class="profile">
+                <img src="imgs/photo.jpg" alt="ma photo de profil">
+                <div class="details">
+                    <h1>Sergi Manuana</h1>
+                    <div class="mail-role">
+                        <a href="mailto:sergi.manuana@gmail.com">sergi.manuana@gmail.com</a>
+                        <span class="role">Développeur</span>
+                    </div>
+                </div>
+            </div>
+            <div class="biographie">
+                <p>Je suis développeur depuis un bout de temps</p>
+                <div class="contact">
+                    <a href="tel:+243891735478">+24389173547</a>
+                    <a href="https://github.com">Voir Github</a>
+                </div>
+            </div>
+        </header>
+
+        <!--Skills-->
+
+    <section>
+        <h2 class="title">Mes compétences</h2>
+        <p class="description">Dans mon parcours en tant que développeur, j’ai acquis plusieurs compétences, en voici quelques unes : </p>
+        <div class="skills">
+            <div class="skill-item">
+                <span class="progress">30%</span>
+                <div class="details">
+                    <h3>Github</h3>
+                    <p>Gérer les différentes versions de mes projets</p>
+                </div>
+            </div>
+            <div class="skill-item">
+                <span class="progress">70%</span>
+                <div class="details">
+                    <h3>HTML</h3>
+                    <p>Créer structure d'une page web</p>
+                </div>
+            </div>
+            <div class="skill-item">
+                <span class="progress">60%</span>
+                <div class="details">
+                    <h3>CSS</h3>
+                    <p>Embellit les pages web</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Langs-->
+    <section>
+        <h2 class="title">Langues</h2>
+        <p class="description">je parle, écris et comprends les langues suivantes :           </p>
+        <div class="langs">
+            <div class="langs-item">
+                <img class="flag" src="imgs/cd.png" alt="lingala" >
+                <span class="name">Lingala</span>
+            </div>
+            <div class="langs-item">
+                <img class="flag" src="imgs/frflag.png" alt="français" >
+                <span class="name">Français</span>
+            </div>
+        </div>
+    </section>
+
+    <!--Expériences-->
+
+    <section>
+        <h2 class="title">Expérinces</h2>
+        <p class="description">Mon parcours au fil du temps</p>
+        <div class="expers">
+            <div class="exp-item">
+                <div class="timeline">
+                    <span class="circle"></span>
+                    <hr class="line">
+                </div>
+                <p>2017 : Electiciens</p>
+            </div>
+            <div class="exp-item">
+                <div class="timeline">
+                    <span class="circle"></span>
+                    <hr class="line">
+                </div>
+                <p>2019  : Etudiant</p>
+            </div>
+            <div class="exp-item">
+                <div class="timeline">
+                    <span class="circle"></span>
+                    <hr class="line">
+                </div>
+                <p>2021 : Développeur</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!--formulaire-->
+
+    <section>
+        <h2 class="title">Me contacter</h2>
+        <p class="description">Entrez en contact avec moi via ce formulaire</p>
+        <div class="form-container">
+            <form action="" >
+                <div class="form-group-row">
+                    <div class="control">
+                        <input type="text" placeholder="Nom" class="nom" required>
+                    </div>
+                    <div class="control">
+                        <input type="text" placeholder="Prénom" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="control">
+                        <input type="email" placeholder="Entre votre Email" class="email">
+                    </div>
+                </div>
+
+                <div class="form-group-now">
+                    <div class="control">
+                        <select name="" id="">
+                            <option value="">Selectionnez l'objet de votre message</option>
+                            <option value="">Objet2</option>
+                            <option value="">Objet3</option>
+                            <option value="">Objet4</option>
+                        </select>
+                    </div>
+                    <div class="control-radio">
+                        <div class="radio-input">
+                            <input type="radio" name="sexe" id="male">
+                            <label for="male">Homme</label>
+                        </div>
+                        <div class="radio-input">
+                            <input type="radio" name="sexe" id="female">
+                            <label for="female">Femme</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="control">
+                        <textarea name="" id="" placeholder="Message" cols="30" rows="10"></textarea>
+                        <span class="feedback">* Ce champ est obligatoire</span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn">Envoyer</button>
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>© Portfolio réalisé dans le cadre de mon apprentissage en HTML et CSS avec Letecode.com</p>
+    </footer>
+        
+
+
+    
+
+    </div>
+</body>
+</html>

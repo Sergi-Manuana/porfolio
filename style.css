@@ -1,0 +1,277 @@
+*{
+    font-family: 'Roboto Serif', serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: #707070;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a{
+    color: #707070;
+    text-decoration: none;
+}
+
+.wrapper{
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+header .profile{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+header .profile img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0px 12px 6px rgba(0, 0, 0, 0.16);
+}
+
+header .profile .details{
+    margin-left: 25px;
+}
+
+header .profile h1{
+    font-size: 4.5rem;
+    font-weight: lighter;
+}
+
+header .profile .details .role{
+    background-color: #4595f4;
+    color: #fff;
+    padding: 7px 12px;
+    border-radius: 10px;
+    margin-left: 20px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+
+header .biographie p{
+    margin-bottom: 20px;
+}
+
+header .biographie .contact{
+    display: flex;
+    justify-content:space-between;
+}
+
+header .biographie a{
+    color: #4595f4;
+    text-decoration: underline;
+}
+
+header{
+    margin-bottom: 24px;
+}
+
+section{
+    margin-bottom: 24px;
+    
+}
+
+section .skills{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+section .skill-item{
+    border: 1px solid #707070;
+    border-radius: 5px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    width: 49%;
+    margin-bottom: 10px;
+}
+
+.skills .skill-item .progress{
+    font-size: 42px;
+    margin-right: 10px;
+}
+
+.skills .skill-item:hover,
+.langs .langs-item:hover{
+    background-color: #75b0f9;
+    border: none;
+    color: #fff;
+
+    box-shadow: 0px 12px 6px rgba(0, 0, 0, 0.16);
+
+}
+
+.langs{
+    display: flex;
+    margin-top: 20px;
+}
+.langs .langs-item{
+    border: 1px solid #707070;
+    align-items: center;
+    padding: 7px;
+    display: flex;
+    margin-right: 15px;
+    border-radius: 7px;
+}
+
+.langs .langs-item img{
+    width: 40px;
+    height: 28px;
+    
+}
+
+.expers{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.expers .exp-item{
+    width: 25%;
+    padding-right: 10px;
+}
+
+.expers .exp-item .timeline{
+    display: flex;
+    align-items: center;
+}
+
+.expers .exp-item .timeline .line{
+    width: 100%;
+    margin-left: 7px;
+    border: none;
+    height: 2px;
+    background: #707070;
+}
+
+.langs .langs-item .flag{
+    margin: 1px;
+    border-radius: 8px;
+}
+
+.expers .exp-item .circle{
+    background-color: #707070;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: block;
+}
+.expers .exp-item .timeline:hover .line,
+.expers .exp-item .timeline:hover .circle{
+    background: green;
+}
+
+section .title{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+section .description{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.form-group-row{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+
+}
+
+.form-group-row .control{
+    width: 49%;
+}
+.form-group .control .email{
+    margin-bottom: 20px;
+}
+.form-group-row .control .email{
+    margin-bottom: 20px;
+}
+
+.form-group-now{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+form input:not([type=radio]), form select, textarea{
+    width: 100%;
+    height: 53px;
+    border-radius: 8px;
+    border: 1px solid #707070;
+    padding: 0px 12px;
+}
+
+form .control-radio{
+    display: flex;
+    width: 49%;
+    align-items: center;
+    
+}
+
+form .control-radio .radio-input{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+form .control-radio .radio-input input{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    
+}
+
+form textarea{
+    height: auto;
+    padding: 12px;
+}
+
+.feedback{
+    color: red;
+    font-size: 14px;
+}
+.form-group .btn{
+    height: 53px;
+    border-radius: 8px;
+    background-color: #4595f4;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+    margin-top: 20px;
+    padding: 0px 25px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.17);
+}
+
+
+.form-group .btn:hover{
+    background-color: #2680ee;
+}
+
+
+form .form-group-row .control input:focus,
+.email:focus, textarea:focus{
+    border: 1px solid #4595f4;
+    outline: none;
+    outline: #4595F4;
+    border: 1px solid #4595f4;
+    
+}
+
+
+footer{
+    margin-top: 40px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 300;
+}
